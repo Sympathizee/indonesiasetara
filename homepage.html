@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/f6ba1cc230.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Indonesia Setara</title>
+</head>
+<body style="background-color: black;">
+	<div class="container-fluid p-0 center h-100">
+		<div class="container h-100 w-100"><!-- TAMBAHIN FLUID KALAU MAU LEBAR -->
+		    <div class="row h-100 w-100 m-0 p-0">
+		    	<div class="col-sm-2"></div>
+		    	<div class="col-sm-8 text-center mb-5 p-0">
+		    		<div class="container mt-5">
+		    			<img class="mt-5" src="img/logo.png">
+		    		</div>
+		    		<div class="row mt-3 pt-2">
+		                <div class="col text-center" style="display: block;text-align: center;">
+		                	<div id="quoteContainer" class="container mb-5">
+		                		<div class="container-fluid quote">
+		                			<h1>"Berikan aku 10 pemuda, maka akan kuguncangkan dunia!"</h1>
+		                			<h3>-Ir. Soekarno</h3>
+		                		</div>
+		                	</div>
+		                	<div id="filterContainer" class="container-fluid mb-2 float-left p-0 m-0" style="color:white;">
+		                		<div class="float-left mr-3">
+									<div class="dropdown show">
+									  	<a class="notification btn-secondary btn" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    	<span><i class="fas fa-bell"></i></span>
+  											<span class="badge">3</span>
+									  	</a>
+
+									  	<div class="dropdown-menu" style="width: 400px;">
+									    	<a class="dropdown-item">
+									    		<div class="container">
+										    		<div class="row">
+										    			<div class="text-wrap" style="font-size: 12px;font-weight: bold;">
+										    				Kamis, 12 Oktober 2020
+										    			</div>
+										    		</div>
+										    		<div class="row">
+											    		<div class="text-wrap">
+											    			"Kerusakan di Jalan Raya Prancis, Dadap, Kota Tangerang.", sudah di verifikasi.
+											    		</div>
+										    		</div>
+										    	</div>
+									    	</a>
+									    	<a class="dropdown-item">
+									    		<div class="container">
+										    		<div class="row">
+										    			<div class="text-wrap" style="font-size: 12px;font-weight: bold;">
+										    				Kamis, 9 Oktober 2020
+										    			</div>
+										    		</div>
+										    		<div class="row">
+											    		<div class="text-wrap">
+											    			16 orang setuju dengan post Anda.
+											    		</div>
+										    		</div>
+										    	</div>
+									    	</a>
+									    	<a class="dropdown-item">
+									    		<div class="container">
+										    		<div class="row">
+										    			<div class="text-wrap" style="font-size: 12px;font-weight: bold;">
+										    				Kamis, 8 Oktober 2020
+										    			</div>
+										    		</div>
+										    		<div class="row">
+											    		<div class="text-wrap">
+											    			Post anda dengan judul "Kerusakan di Jalan Raya Prancis, Dadap, Kota Tangerang", berhasil di ajukan.
+											    		</div>
+										    		</div>
+										    	</div>
+									    	</a>
+									  	</div>
+									</div>
+								</div>
+		                		<div class="float-left">
+		                			<div class="dropdown show">
+									  	<a class="btn btn-secondary" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    Filter
+									  	</a>
+
+									  	<div class="dropdown-menu">
+									    	<a class="dropdown-item" href="#">Verified</a>
+									    	<a class="dropdown-item" href="#">Selesai</a>
+									    	<a class="dropdown-item" href="#">Permintaan Perbaikan</a>
+									    	<a class="dropdown-item" href="#">Permintaan Pembangunan</a>
+									    	<a class="dropdown-item" href="#">Perhubungan</a>
+									    	<a class="dropdown-item" href="#">Kesehatan</a>
+									    	<a class="dropdown-item" href="#">Pendidikan</a>
+									    	<a class="dropdown-item" href="#">Transportasi</a>
+									  	</div>
+									</div>
+								</div>
+		                	</div>
+		                  	<div id="threadContainer" class="container mb-5" style="border: 2px solid white; border-radius: 5px; color: white;height: 400px;overflow-y: scroll;">
+
+		                  		<!-- THREAD -->
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Wisnu <span class="tag">@Wisnu446</span> • <span class="time">01:00</span> • <span class="tag">Kamis, 8 Oktober 2020</span> <span class="badge badge-info">VERIFIED</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-warning">PERBAIKAN</span> • <span class="badge badge-success">PERHUBUNGAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Kerusakan di Jalan Raya Prancis, Dadap, Kota Tangerang.
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel1.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Rosyid <span class="tag">@Rosyid446</span> • <span class="time">18:33</span> • <span class="tag">Kamis, 8 Maret 2020</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-danger">PEMBANGUNAN</span> • <span class="badge badge-success">PERHUBUNGAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Pembangunan Jembatan di Desa Selajambe, Kecamatan Cisaat, Sukabumi
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel2.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Jarwo <span class="tag">@Jarwo420</span> • <span class="time">04:20</span> • <span class="tag">Sabtu, 21 Maret 2020</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-warning">PERBAIKAN</span> • <span class="badge badge-success">KESEHATAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Kerusakan Rumah sakit umum daerah Polelwali Mandar, Sulawesi Barat
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel3.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Aldo <span class="tag">@Aldorino33</span> • <span class="time">06:09</span> • <span class="tag">Kamis, 8 Oktober 2020</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-warning">PERBAIKAN</span> • <span class="badge badge-success">TRANSPORTASI</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Sopir Transjakarta Bus Kode Volvo B11R 6×2 ZF Ecolife, putih-biru tua (SAF). Koridor 3 jurusan Kalideres – Pasar Baru
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel4.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Zidane <span class="tag">@ZidaneSmart</span> • <span class="time">11:11</span> • <span class="tag">Kamis, 18 Januari 2020</span> <span class="badge badge-info">VERIFIED</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-danger">PEMBANGUNAN</span> • <span class="badge badge-success">KESEHATAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Pembangunan Rumah Sakit Rujukan di Tangerang Kota
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel5.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Pusparaja <span class="tag">@PuspaRaja</span> • <span class="time">14:22</span> • <span class="tag">Rabu, 29 Juli 2020</span> <span class="badge badge-info">VERIFIED</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-warning">PERBAIKAN</span> • <span class="badge badge-success">PENDIDIKAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Kerusakan Sekolah Dasar Negeri Puspamulya, Kampung Balawiri, Desa Pusparaja, Kecamatan Cigalontang.
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel6.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Faruq <span class="tag">@FaruqNasution</span> • <span class="time">21:33</span> • <span class="tag">Kamis, 17 Agustus 2020</span> <span class="badge badge-info">VERIFIED</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-danger">PEMBANGUNAN</span> • <span class="badge badge-success">PENDIDIKAN</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Pembangunan Sekolah Dasar di Desa Cicurug.
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel7.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="container-fluid thread" style="border-top: 1px solid white;border-bottom: 1px solid white;">
+		                  			<div class="row mt-2">
+		                  				<div class="col-sm-1 mr-2">
+		                  					<img src="img/Cyan.png" style="width: 50px;height: 50px;border-radius: 50px;">
+		                  				</div>
+		                  				<div class="col-sm-11 text-left">
+		                  					<div class="row">
+		                  						<div class="col nametag">
+		                  							Agastya <span class="tag">@AgassWM</span> • <span class="time">17:17</span> • <span class="tag">Kamis, 6 Februari 2020</span>
+		                  						</div>
+		                  					</div>
+		                  					<div class="row">
+		                  						<div class="col"><span class="badge badge-danger">PEMBANGUNAN</span> • <span class="badge badge-success">TRANSPORTASI</span></div>
+		                  					</div>
+		                  					<div class="row konten">
+		                  						<div class="col">
+		                  							Pembangunan Halte Transjakarta di Daerah Roxy, Grogol, Jakarta Barat.
+		                  						</div>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  			<div class="row mb-2 mt-2">
+		                  				<div class="col-sm-3 text-right" style="font-weight: bold;">
+		                  					<button class="like"><i class="fas fa-thumbs-up"></i> 16</button>
+		                  				</div>
+		                  				<div class="col-sm-3 text-left" style="font-weight: bold;">
+		                  					<button class="dislike"><i class="fas fa-thumbs-down"></i> 11</button>
+		                  				</div>
+		                  				<div class="col-sm-6 text-right more">
+		                  					<div class="container" style="bottom: 0px;position: absolute;">
+		                  						<a href="artikel8.html" style="bottom: 0px;">Lihat Lebih...</a>
+		                  					</div>
+		                  				</div>
+		                  			</div>
+		                  		</div>
+
+		                  	</div>
+		                  	<div id="buttonContainer" class="container-fluid" style="color: white;">
+		                  		
+		                  		<div class="row">
+		                  			<div class="container col-sm-1">
+		                  				
+		                  			</div>
+		                  			<a href="perhubungan1.html" class="container col-sm-4 align-middle holder">
+			                  			<div class="options" style="color: white;">
+			                  				Layanan Perhubungan
+			                  			</div>
+		                  			</a>
+		                  			<div class="container col-sm-2">
+		                  				
+		                  			</div>
+		                  			<a href="kesehatan1.html" class="container col-sm-4 align-middle holder">
+			                  			<div class="options" style="color: white;">
+			                  				Layanan Kesehatan
+			                  			</div>
+			                  		</a>
+		                  			<div class="container col-sm-1">
+		                  				
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="row">
+		                  			<div class="container col-sm-12" style="height: 25px;">
+		                  				
+		                  			</div>
+		                  		</div>
+
+		                  		<div class="row">
+		                  			<div class="container col-sm-1">
+		                  				
+		                  			</div>
+		                  			<a href="pendidikan1.html" class="container col-sm-4 holder">
+			                  			<div class="options" style="color: white;">
+			                  				Layanan Pendidikan
+			                  			</div>
+		                  			</a>
+		                  			<div class="container col-sm-2">
+		                  				
+		                  			</div>
+		                  			<a class="container col-sm-4 holder" href="transportasi1.html">
+			                  			<div class="options" style="color: white;">
+			                  				Layanan Transportasi
+			                  			</div>
+		                  			</a>
+		                  			<div class="container col-sm-1">
+		                  				
+		                  			</div>
+		                  		</div>
+
+		                  	</div>
+		                </div>
+		             </div>
+		    	</div>
+		    	<div class="col-sm-2"></div>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>

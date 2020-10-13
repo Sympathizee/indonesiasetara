@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/f6ba1cc230.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Layanan Perhubungan Indonesia - Indonesia Setara</title>
+</head>
+<body style="background-color: black;">
+	<div class="container-fluid p-0 center h-100">
+		<div class="container h-100 w-100"><!-- TAMBAHIN FLUID KALAU MAU LEBAR -->
+		    <div class="row h-100 w-100 m-0 p-0">
+		    	<div class="col-sm-2"></div>
+		    	<div class="col-sm-8 text-center mb-5 p-0">
+		    		<div class="container">
+		    			<img class="" src="img/logo.png">
+		    		</div>
+		    		<div class="row mt-3 pt-2">
+		                <div class="col text-center" style="display: block;text-align: center;">
+		                	<div id="quoteContainer" class="container mb-5">
+		                		<div class="container-fluid quote">
+		                			<h1>Layanan Perhubungan Indonesia</h1>
+		                			<a href="perhubungan1.html">
+		                				<button class="tombol terpilih">Permintaan Perbaikan</button>
+		                			</a>
+		                			<a href="perhubungan2.html">
+		                				<button class="tombol" style="color: white; display:inline-block;">Permintaan Pembangunan</button>
+		                			</a>
+		                		</div>
+		                	</div>
+		                	<label class="" style="color: white; font-weight: bold;">Permintaan Perbaikan</label><br>
+		                  	<form style="display: inline-block;" action="homepage.html">
+		                  		<label class="" style="color: white; font-weight: bold;">Lokasi</label>
+							  	<div class="form-group">
+							    	<button class="tombol" style="color: white;" disabled ><i class="fas fa-map-marker-alt"></i></button>
+							  	</div>
+							  	<div class="form-group">
+							    	<label class="float-left" style="color: white; font-weight: bold;">Judul Artikel</label>
+							    	<input type="text" class="form-control inputan" placeholder="Judul" required> 
+							  	</div>
+							  	<div class="form-group">
+							    	<label class="float-left" style="color: white; font-weight: bold;">Waktu Pelaporan</label>
+							    	<br>
+							    	<br>
+							    	<small class="float-left" style="color: white; font-weight: bold;">Tanggal</small>
+							    	<input type="date" class="form-control inputan" required>
+							    	<br>
+							    	<small class="float-left" style="color: white; font-weight: bold;">Jam</small>
+							    	<input type="time" class="form-control inputan" required>
+							  	</div>
+							  	<div class="form-group">
+							    	<label class="float-left" style="color: white; font-weight: bold;">Deskripsi Keadaan</label>
+							    	<textarea rows="5" class="form-control inputan" placeholder="Deskripsi Lengkap" required></textarea>
+							  	</div>
+							  	<div class="container-fluid mb-3" style="border:2px solid white;border-radius: 15px;">
+							  		<label class="" style="color: white; font-weight: bold;">Tambah Bukti (Wajib)</label>
+								  	<div class="form-group">
+								    	<input type="file" class="form-control inputan" style="border-bottom: 0px;" required>
+								    	<input type="file" class="form-control inputan" style="border-bottom: 0px;" required>
+								  	</div>
+								  	<div class="form-group">
+								    	<button class="tombol" style="color: white; width: 50px;" disabled><i class="fas fa-plus"></i></button>
+								  	</div>
+								</div>
+								<div class="form-group">
+							    	<label class="float-left" style="color: white; font-weight: bold;">Kritik &amp; Saran</label>
+							    	<textarea rows="3" class="form-control inputan" placeholder="Kritik & Saran"></textarea>
+							  	</div>
+							  	<button type="submit" class="btn btn-primary tombol">SUBMIT</button>
+							</form>
+		                </div>
+		             </div>
+		             <a style="color: white;" href="homepage.html">Kembali</a>
+		    	</div>
+		    	<div class="col-sm-2"></div>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>
