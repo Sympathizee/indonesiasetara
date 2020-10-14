@@ -8,7 +8,8 @@
 
 .tombol{
 	width: 250px;
-	height: 45px;
+	padding-top:10px;
+	padding-bottom:10px;
 	border-radius: 50px;
 	font-size: 20px; 
 	background-color: transparent;
